@@ -1,0 +1,7 @@
+number = int(input("Введите натуральное число:"))
+summ_of_digits = 0
+while number>0:
+    sum_of_digits += number%10
+    number //= 10
+
+print("Сумма цифр:", summ_of_digits)
