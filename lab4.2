@@ -1,0 +1,6 @@
+cities_input = input("Введите список городов через пробел:")
+cities_list = cities_input.split()
+iterator = iter(cities_list)
+first_city = next (iterator, None)
+second_city = next(iterator, None)
+print(first_city, second_city)
